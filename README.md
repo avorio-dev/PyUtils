@@ -1,7 +1,7 @@
 # PyUtils
 Utils for your developments
 
-> List of simple Examples
+> List of simple [Examples](https://github.com/avorio-dev/PyUtils/tree/main/Examples)
 >> 1. Database connection
 >> 2. Raise Exceptions
 >> 3. Read File
@@ -11,13 +11,12 @@ Utils for your developments
 >> 7. Most Commons Statistics
 >> 8. Use of Time
 
-> Logging
->>With ZAGLogger.py you will be able to log 
-> with colorful console messages your program execution flow,
-> and also create files with them.
+> Logging [ZAGLogger.py](https://github.com/avorio-dev/PyUtils/blob/main/Logging/ZAGLogger.py) 
+>>You will be able to log with colorful console messages 
+> your program execution flow, and also create files with them.
 
-> TkInter
->>With ZAGThemeTk.py you will be able to 
+> TkInter [ZAGThemeTk.py](https://github.com/avorio-dev/PyUtils/blob/main/TkInter/ZAGThemeTk.py)
+>>You will be able to 
 > apply custom themes to your TkInter components.
 > Default themes are provided, and you will be able to
 > create your themes and use them with this script.

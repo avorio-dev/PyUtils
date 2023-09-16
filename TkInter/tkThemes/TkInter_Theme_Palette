@@ -1,0 +1,20 @@
+
+ffffff base
+main = bg_main 95%
+frame = bg_frame 85%
+text = base 100%
+
+ffffff base
+blue 003cb3
+button = bg_btn 35%
+        bg_on_enter 50%
+        bg_disabled 20%
+
+menu_button = bg_btn
+menu        = bg_btn 25%
+              active_bg 55%
+
+label = bg_frame
+
+scrollbar = bg_btn
+            active_bg = button bg_on_enter

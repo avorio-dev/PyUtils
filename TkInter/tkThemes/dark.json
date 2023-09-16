@@ -1,0 +1,105 @@
+{
+  "theme_name": "dark",
+  "theme_specs": {
+    "root": {
+      "background": "#1b1e20"
+    },
+    "frame": {
+      "background": "#25292a"
+    },
+    "entry": {
+      "background": "#313335",
+      "foreground": "#d0d7e1",
+      "borderwidth": 1,
+      "relief": "solid",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 11,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "text": {
+      "background": "#313335",
+      "foreground": "#d0d7e1",
+      "borderwidth": 1,
+      "relief": "solid",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "scrollbar": {
+      "background": "#00ffcc",
+      "activebackground": "#313335",
+      "troughcolor": "#313335",
+      "arrowsize": 0
+    },
+    "button": {
+      "background": {
+        "default": "#00ffcc",
+        "on_enter": "#21a4c3",
+        "disabled": "#0d4670"
+      },
+      "foreground": {
+        "default": "#000000",
+        "on_enter": "#000000",
+        "disabled": "#ffffff"
+      },
+      "borderwidth": 2,
+      "padding": 5,
+      "relief": "groove",
+      "justify": "center",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "menubutton": {
+      "background": "#00ffcc",
+      "foreground": "#000000",
+      "borderwidth": 2,
+      "padding": 5,
+      "relief": "groove",
+      "justify": "center",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "menu": {
+      "background": "#00cca3",
+      "foreground": "#000000",
+      "activebackground": "#00ffcc",
+      "activeforeground": "#000000",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "label": {
+      "background": "#25292a",
+      "foreground": "#d0d7e1",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 13,
+        "weight": "bold",
+        "slant": "italic"
+      }
+    }
+  }
+}

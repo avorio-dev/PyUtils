@@ -1,0 +1,13 @@
+{
+  "mysql_conf": {
+    "dbcon": {
+      "host": "localhost",
+      "user": "root",
+      "passwd": "",
+      "autocommit": true
+    },
+    "database": {
+      "database_name": "testDB"
+    }
+  }
+}

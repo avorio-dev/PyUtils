@@ -1,0 +1,105 @@
+{
+  "theme_name": "default",
+  "theme_specs": {
+    "root": {
+      "background": "#f2f2f2"
+    },
+    "frame": {
+      "background": "#d9d9d9"
+    },
+    "entry": {
+      "background": "white",
+      "foreground": "black",
+      "borderwidth": 1,
+      "relief": "solid",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 11,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "text": {
+      "background": "white",
+      "foreground": "black",
+      "borderwidth": 1,
+      "relief": "solid",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "scrollbar": {
+      "background": "#003cb3",
+      "activebackground": "#0055ff",
+      "troughcolor": "#f0f0f0",
+      "arrowsize": 0
+    },
+    "button": {
+      "background": {
+        "default": "#003cb3",
+        "on_enter": "#0055ff",
+        "disabled": "#002266"
+      },
+      "foreground": {
+        "default": "white",
+        "on_enter": "black",
+        "disabled": "white"
+      },
+      "borderwidth": 2,
+      "padding": 5,
+      "relief": "groove",
+      "justify": "center",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "menubutton": {
+      "background": "#003cb3",
+      "foreground": "white",
+      "borderwidth": 2,
+      "padding": 5,
+      "relief": "groove",
+      "justify": "center",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "menu": {
+      "background": "#002b80",
+      "foreground": "white",
+      "activebackground": "#1a66ff",
+      "activeforeground": "white",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 12,
+        "weight": "normal",
+        "slant": "italic"
+      }
+    },
+    "label": {
+      "background": "#d9d9d9",
+      "foreground": "black",
+      "font": {
+        "family": "consolas",
+        "name": "",
+        "size": 13,
+        "weight": "bold",
+        "slant": "italic"
+      }
+    }
+  }
+}

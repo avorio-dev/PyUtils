@@ -43,11 +43,15 @@ class LogEntry:
 class ZAGLogger(logging.Formatter):
     # ---> CONSTANTS
     # Color for Log messages
-    LOG_COL_GREY = "\x1b[37;20m"
-    LOG_COL_CYANOGEN = "\x1b[36;20m"
-    LOG_COL_YELLOW = "\x1b[33;20m"
-    LOG_COL_RED = "\x1b[31;20m"
-    LOG_COL_BOLD_RED = "\x1b[31;1m"
+    LOG_COL_RED = "\x1b[31;1m"
+    LOG_COL_BOLD_RED = "\x1b[31;1;3;4m"
+    LOG_COL_GREEN = "\x1b[32m"
+    LOG_COL_YELLOW = "\x1b[33;1;3m"
+    LOG_COL_BLUE = "\x1b[34m"
+    LOG_COL_MAGENTA = "\x1b[35m"
+    LOG_COL_CYANOGEN = "\x1b[36m"
+    LOG_COL_GREY = "\x1b[37m"
+
     LOG_COL_RESET = "\x1b[0m"
 
     # ---> ATTRIBUTES
@@ -56,8 +60,8 @@ class ZAGLogger(logging.Formatter):
 
     # Formats for each Log Level
     formats = {
-        logging.DEBUG: LOG_COL_GREY + format_str + LOG_COL_RESET,
-        logging.INFO: LOG_COL_CYANOGEN + format_str + LOG_COL_RESET,
+        logging.DEBUG: LOG_COL_CYANOGEN + format_str + LOG_COL_RESET,
+        logging.INFO: LOG_COL_GREEN + format_str + LOG_COL_RESET,
         logging.WARNING: LOG_COL_YELLOW + format_str + LOG_COL_RESET,
         logging.ERROR: LOG_COL_RED + format_str + LOG_COL_RESET,
         logging.CRITICAL: LOG_COL_BOLD_RED + format_str + LOG_COL_RESET

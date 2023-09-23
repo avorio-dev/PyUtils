@@ -1,5 +1,0 @@
-[37;20m2023-09-16 11:28:08,526 - [ZAG Logger] - DEBUG - Log message level Debug ( ZAGLogger.py:136 )[0m
-[36;20m2023-09-16 11:28:08,526 - [ZAG Logger] - INFO - Log message level Info ( ZAGLogger.py:136 )[0m
-[33;20m2023-09-16 11:28:08,526 - [ZAG Logger] - WARNING - Log message level Warning ( ZAGLogger.py:136 )[0m
-[31;20m2023-09-16 11:28:08,526 - [ZAG Logger] - ERROR - Log message level Error ( ZAGLogger.py:136 )[0m
-[31;1m2023-09-16 11:28:08,527 - [ZAG Logger] - CRITICAL - Log message level Critical ( ZAGLogger.py:136 )[0m

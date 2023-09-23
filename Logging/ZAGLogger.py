@@ -13,7 +13,7 @@ from logging.handlers import TimedRotatingFileHandler
 # CORE
 class LogEntry:
     # ---> CONSTRUCTOR
-    def __init__(self, time, name, level, message, filename, lineno):
+    def __init__(self, time, name, level, message):
         """
             It creates a Model of a Log Entry based on ZAGLogger message Format
 
@@ -21,8 +21,6 @@ class LogEntry:
         :param name: Log Instance name
         :param level: Log Level
         :param message: Message to Log
-        :param filename: Script Name
-        :param lineno: Script Line Number
         """
         timestamp = time
         timestamp_dt = datetime.fromtimestamp(timestamp)
@@ -31,13 +29,10 @@ class LogEntry:
         self.name = name
         self.level = level
         self.message = message
-        self.filename = filename
-        self.lineno = lineno
 
     # ---> FUNCTIONS
     def to_str(self):
-        return (f'{self.time} - [{self.name}] - {self.level} - '
-                f'{self.message} ({self.filename}:{self.lineno})')
+        return f'{self.time} - [{self.name}] - {self.level} - {self.message}'
 
 
 class ZAGLogger(logging.Formatter):
@@ -56,7 +51,7 @@ class ZAGLogger(logging.Formatter):
 
     # ---> ATTRIBUTES
     # Log Message Format
-    format_str = "%(asctime)s - [%(name)s] - %(levelname)s - %(message)s ( %(filename)s:%(lineno)d )"
+    format_str = "%(asctime)s - [%(name)s] - %(levelname)s - %(message)s"
 
     # Formats for each Log Level
     formats = {
@@ -143,8 +138,7 @@ class ZAGLogger(logging.Formatter):
         log_record = logging.makeLogRecord({'msg': message, 'levelname': logging.getLevelName(log_level)})
 
         # Create the log entry based on logged record and save in the class list
-        log_entry = LogEntry(log_record.created, self.log_name, log_record.levelname, log_record.msg,
-                             log_record.pathname, log_record.lineno)
+        log_entry = LogEntry(log_record.created, self.log_name, log_record.levelname, log_record.msg)
 
         # Store the formatted record and return it as a String
         log_entry_str = log_entry.to_str()
